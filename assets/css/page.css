@@ -1,1 +1,48 @@
 @import url(./reset.css);
+
+/* HEADER STYLE */
+header {
+    padding: 2.5rem 4%;
+}
+
+header > .interface {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a {
+    color: #7d7d7d;
+    display: inline-block;
+    transition: .2s;
+}
+
+header a:hover{
+    color: #ffffff;
+    transform: scale(1.05);
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 2.5rem;
+}
+
+header .btn-contato button {
+    padding: 0.625rem 2.5rem;
+    font-size: 1.125rem;
+    border-radius: 1.875rem;
+    background-color: #0b2553;
+    color: #ffffff;
+    font-weight: 600;
+    transition: all 0.3s ease-in-out;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+header .btn-contato button:hover {
+    background-color: #ffffff;
+    box-shadow: #ffffff 0px 0px 10px;
+    color: #0b2553;
+    transform: scale(1.05);
+}
