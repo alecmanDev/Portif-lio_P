@@ -27,22 +27,50 @@ header nav ul li{
     padding: 0 2.5rem;
 }
 
-header .btn-contato button {
-    padding: 0.625rem 2.5rem;
-    font-size: 1.125rem;
-    border-radius: 1.875rem;
-    background-color: #0b2553;
-    color: #ffffff;
-    font-weight: 600;
-    transition: all 0.3s ease-in-out;
-    border: none;
-    cursor: pointer;
-    transition: 0.5s;
+
+
+/* WEBSITE HEADER STYLE */
+section.topo-do-site {
+padding: 2.5rem 4%;
 }
 
-header .btn-contato button:hover {
-    background-color: #ffffff;
-    box-shadow: #ffffff 0px 0px 10px;
-    color: #0b2553;
-    transform: scale(1.05);
+section.topo-do-site .flex {
+    justify-content: center;
+    align-items: center;
+    gap: 5.625rem;
+}
+
+.topo-do-site h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #ffffff;
+    line-height: 2.5rem;
+}
+
+.topo-do-site .txt-topo-do-site h1 span {
+    color: #0A84FF;
+}
+
+.topo-do-site .txt-topo-do-site p {
+    margin: 2.5rem 0;
+    font-size: 1.125rem;
+    color: #D1D5DB;
+}
+
+.topo-do-site .img-topo-do-site img {
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+    height: 30rem;
+}
+
+@keyframes flutuar {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
 }

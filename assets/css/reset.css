@@ -18,3 +18,27 @@ body {
     max-width: 80rem;
     margin: 0 auto;
 }
+
+.flex {
+  display: flex;
+}
+
+.btn-contato button {
+    padding: 0.625rem 2.5rem;
+    font-size: 1.125rem;
+    border-radius: 1.875rem;
+    background-color: #0b2553;
+    color: #ffffff;
+    font-weight: 600;
+    transition: all 0.3s ease-in-out;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.btn-contato button:hover {
+    background-color: #ffffff;
+    box-shadow: #ffffff 0px 0px 10px;
+    color: #0b2553;
+    transform: scale(1.05);
+}
