@@ -7,11 +7,21 @@
     text-decoration: none;
     font-family: "Poppins", sans-serif;
     color: #ffffff;
+    background-color: #0F0F0F;
   }
 
 body {
-    background-color: #0F0F0F;
     height: 100vh;
+}
+
+h2.titulo {
+    color: #ffffff;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+h2.titulo span {
+    color: #0A84FF;
 }
 
 .interface {

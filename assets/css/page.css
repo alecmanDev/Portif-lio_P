@@ -74,3 +74,35 @@ section.topo-do-site .flex {
         transform: translateY(0);
     }
 }
+
+/* SPECIALTY STYLE */
+section.especialidades {
+    padding: 2.5rem 4%;
+}
+
+section.especialidades .flex {
+    gap: 3.75rem;
+}
+
+.especialidades .especialidades-box {
+    color: #D1D5DB;
+    padding: 2.5rem;
+    border-radius: 20px;
+    margin-top: 1.625rem;
+    transition: .2s;
+}
+
+.especialidades .especialidades-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #0A84FF;
+}
+
+.especialidades .especialidades-box i{
+    font-size: 4.375rem;
+    color: #0A84FF;
+}
+
+.especialidades .especialidades-box h3 {
+    font-size: 1.75rem;
+    margin: 1rem 0;
+}
