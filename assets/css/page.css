@@ -208,3 +208,47 @@ section.projetos .flex {
     opacity: 1;
     transition: opacity .3s ease-in-out;
 }
+
+/* CONTACT FORM STYLE */
+section.formulario {
+    padding: 5rem 4%;
+}
+
+form {
+    max-width: 31.25rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.625rem;
+}
+
+form input, form textarea {
+    width: 100%;
+    background-color: #000000b8;
+    border: none;
+    outline: none;
+    padding: 1.25rem 0.938rem;
+    border-radius: 15px;
+    color: #ffffff;
+    font-size: 1.125rem;
+}
+
+form textarea {
+    resize: none;
+    height: 15rem;
+}
+
+form .btn-enviar {
+    margin-top: 1.25rem;
+    text-align: center;
+}
+
+form .btn-enviar input{
+    width: 7.5rem;
+    background-color: #0A84FF;
+    color: #ffffff;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
